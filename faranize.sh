@@ -5,7 +5,7 @@
 FirstVid=$(ls | grep -i '\.mp4$\|\.avi$\|\.mov$'|head -1)
 LastVid=$(ls | grep -i '\.mp4$\|\.avi$\|\.mov$'|tail -1)
 FilesCount=$(ls | grep -i '\.mp4$\|\.avi$\|\.mov$'|wc -l)
-IntroVid="stuffs/intro720.mp4"
+IntroVid="stuffs/intro.mp4"
 WatermarkFile="stuffs/watermark.png"
 OutputDir="output"
 TempDir="tmp"
